@@ -1,0 +1,60 @@
+userInputOne = int(input())
+userInputOperation = input()
+userInputTwo = int(input())
+
+
+if userInputOperation == "+":
+    if userInputOne == 56:
+        if userInputTwo == 9:
+            var1 = 77
+        else:
+            var1 = userInputOne + userInputTwo
+    else:
+        var1 = userInputOne + userInputTwo
+elif userInputOperation == "-":
+    var1 = userInputOne - userInputTwo
+elif userInputOperation == "*":
+    if userInputOne == 45:
+        if userInputTwo == 3:
+            var1 = 555
+        else:
+            var1 = userInputOne * userInputTwo
+    else:
+        var1 = userInputOne * userInputTwo
+elif userInputOperation == "/":
+    if userInputOne == 56:
+        if userInputTwo == 6:
+            var1 = 4
+        else:
+            var1 = userInputOne / userInputTwo
+    else:
+        var1 = userInputOne / userInputTwo
+
+
+print("Result is",var1)
+
+
+
+
+# if userInputOne == 45:
+#     if userInputTwo == 3:
+#         if userInputOperation == "*":
+#             output = 555;
+# # else:
+# #     output = userInputTwo * userInputTwo
+#
+# elif userInputOne == 56:
+#     if userInputTwo == 9:
+#         if userInputOperation == "+":
+#             output = 77;
+# # else:
+# #     output = userInputTwo + userInputTwo
+#
+# elif userInputOne == 56:
+#     if userInputTwo == 6:
+#         if userInputOperation == "/":
+#             output = 4
+# else:
+#     output = userInputTwo / userInputTwo
+#
+# print("output value",output)
